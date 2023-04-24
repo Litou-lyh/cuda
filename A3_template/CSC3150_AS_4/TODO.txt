@@ -1,0 +1,5 @@
+snapshot.bin is still wrong
+
+but seem first files are correctly written and read x_x
+
+let's go and find the reason, and that may solve the myth of last assignment too! orz

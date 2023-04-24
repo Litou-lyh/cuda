@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="data.bin" />
+    <None Include="snapshot.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="file_system.cu" />
+    <CudaCompile Include="main.cu" />
+    <CudaCompile Include="user_program.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="file_system.h" />
+  </ItemGroup>
+</Project>

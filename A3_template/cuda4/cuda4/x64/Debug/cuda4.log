@@ -1,0 +1,144 @@
+﻿  Compiling CUDA source file main.cu...
+  Compiling CUDA source file kernel.cu...
+  Compiling CUDA source file user_program.cu...
+  Compiling CUDA source file file_system.cu...
+  
+  D:\Programming\cuda\A3_template\cuda4\cuda4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\main.cu.obj "D:\Programming\cuda\A3_template\cuda4\cuda4\main.cu" 
+  
+  D:\Programming\cuda\A3_template\cuda4\cuda4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\Programming\cuda\A3_template\cuda4\cuda4\kernel.cu" 
+  
+  D:\Programming\cuda\A3_template\cuda4\cuda4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\user_program.cu.obj "D:\Programming\cuda\A3_template\cuda4\cuda4\user_program.cu" 
+  
+  D:\Programming\cuda\A3_template\cuda4\cuda4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\file_system.cu.obj "D:\Programming\cuda\A3_template\cuda4\cuda4\file_system.cu" 
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(8): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(10): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(12): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(14): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(18): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(21): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(23): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(25): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(27): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(30): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(32): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(34): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(36): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(38): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(46): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(47): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/main.cu(90): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/main.cu(104): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(37): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(132): warning : integer conversion resulted in a change of sign
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(137): warning : integer conversion resulted in a change of sign
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(206): warning : non-void function "fs_write" should return a value
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(553): warning : expression has no effect
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(553): warning : loop is not reachable
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(583): warning : pointless comparison of unsigned integer with a negative constant
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(596): warning : pointless comparison of unsigned integer with a negative constant
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(602): warning : pointless comparison of unsigned integer with a negative constant
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(8): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(10): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(12): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(14): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(18): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(21): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(23): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(25): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(27): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(30): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(32): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(34): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(36): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(38): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(46): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/user_program.cu(47): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/main.cu(90): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/main.cu(104): warning : conversion from a string literal to "char *" is deprecated
+  
+  kernel.cu
+  main.cu
+  user_program.cu
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(37): warning : conversion from a string literal to "char *" is deprecated
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(132): warning : integer conversion resulted in a change of sign
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(137): warning : integer conversion resulted in a change of sign
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(553): warning : expression has no effect
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(553): warning : loop is not reachable
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(583): warning : pointless comparison of unsigned integer with a negative constant
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(596): warning : pointless comparison of unsigned integer with a negative constant
+  
+D:/Programming/cuda/A3_template/cuda4/cuda4/file_system.cu(602): warning : pointless comparison of unsigned integer with a negative constant
+  
+  file_system.cu
+  
+  D:\Programming\cuda\A3_template\cuda4\cuda4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -dlink -o x64\Debug\cuda4.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 64 x64\Debug\file_system.cu.obj x64\Debug\kernel.cu.obj x64\Debug\main.cu.obj x64\Debug\user_program.cu.obj 
+CUDALINK : nvlink warning : Stack size for entry function '_Z8mykernelPhS_' cannot be statically determined
+CUDALINK : nvlink error : Undefined reference to '_Z7fs_initP10FileSystemPhiiiiiiiiiS1_' in 'x64/Debug/main.cu.obj'
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  file_system.cu.obj
+  kernel.cu.obj
+  main.cu.obj
+  user_program.cu.obj
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\BuildCustomizations\CUDA 10.1.targets(851,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin\nvcc.exe" -dlink -o x64\Debug\cuda4.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 64 x64\Debug\file_system.cu.obj x64\Debug\kernel.cu.obj x64\Debug\main.cu.obj x64\Debug\user_program.cu.obj”已退出，返回代码为 255。
